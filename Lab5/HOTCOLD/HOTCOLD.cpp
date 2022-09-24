@@ -2,7 +2,6 @@
 //Edgar Sanchez
 //ITSE 1307
 
-
 #include <cstdlib>
 #include <iostream>
 
