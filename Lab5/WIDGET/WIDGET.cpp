@@ -46,7 +46,7 @@ int main()
         total = widget * 10;
     }
 
-    cout << "For " << widget<< " widgets your total will come put to $" << total << endl;
+    cout << "For " << widget << " widgets your total will come put to $" << total << endl;
     cout << "Thank you for your purchase!" << endl;
     system("PAUSE");
     return 0;
