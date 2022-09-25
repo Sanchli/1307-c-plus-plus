@@ -1,7 +1,7 @@
-//HOTCOLD
+//Lab5 HOTCOLD
 //Edgar Sanchez
-//ITSE 1307
-
+//1307 Intro to C++
+	
 #include <cstdlib>
 #include <iostream>
 

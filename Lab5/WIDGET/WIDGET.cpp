@@ -1,4 +1,4 @@
-//WIDGET
+//Lab5 WIDGET
 //Edgar Sanchez
 //1307
 
