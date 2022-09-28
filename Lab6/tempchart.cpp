@@ -15,4 +15,6 @@ int main()
         cout << celsius << "              " << fahrenheit << endl;
         celsius = celsius + 10 ;
     }
+    System ("PAUSE")
+    return 0;
 }
