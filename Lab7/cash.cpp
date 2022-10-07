@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    //Variables
+    //varibles
     double item_price, total_tax, total, tax = .08, sum = 0;
 
     //Prompts user to enter price for each item  

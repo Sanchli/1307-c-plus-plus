@@ -8,7 +8,7 @@ int main()
 {
     system("clear");
     int pumpkins = 0;
-    double weight,total, average;
+    double weight,total, average, largest;
 
     cout << "Pumpking weight average" << endl;
 
@@ -21,6 +21,11 @@ int main()
 //Sentinel loop will continue to run until 0 is entered. 
 for (weight; weight != 0; pumpkins++)
 {
+    //if statement to input largest pumpkin in variable. Will check until a larger pumpkin is entered. 
+    if(weight > largest)
+    {
+        largest = weight;
+    }
     total = total + weight;
     cout << "Enter next pumkin weight(0 to exit)" << endl;
     cin >> weight;
@@ -33,6 +38,7 @@ cout << setprecision(2);
 
 //Outputs the result of pumpkin average
 cout << "The average for " << pumpkins <<" pumpkins is " << average << " pounds." << endl;
+cout << largest << endl;
 return 0;    
 system("PAUSE");
 
