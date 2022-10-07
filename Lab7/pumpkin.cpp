@@ -38,7 +38,7 @@ cout << setprecision(2);
 
 //Outputs the result of pumpkin average
 cout << "The average for " << pumpkins <<" pumpkins is " << average << " pounds." << endl;
-cout << largest << endl;
+cout << "And the largest pumpkin weighs " << largest << " pounds." << endl;
 return 0;    
 system("PAUSE");
 
