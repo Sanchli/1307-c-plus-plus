@@ -8,12 +8,14 @@ int jellybeans(double,double);
 
 int main()
 {
+    system("clear");
+
     double height, radius, cylinder_volume, pi = 3.1459,total;
     
     //Prompt user for the Height and radius of the cylinder
     cout << "Enter the height of your cylinder: " << endl;
     cin >> height;
-    cout << "ENter the radius of your cylinder: " << endl;
+    cout << "Enter the radius of your cylinder: " << endl;
     cin >> radius;
 
     //calls two functions the cylinder volume and total
@@ -21,7 +23,7 @@ int main()
     total = jellybeans(cylinder_volume, pi);
 
     //Outputs the total of jellybeans in the containter 
-    cout << "The total amount of jellybeans in your container is" << total << endl;
+    cout << "The total amount of jellybeans in your container is " << total << endl;
 }
 
 int volume(double num1, double num2, double pi)
