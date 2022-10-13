@@ -4,3 +4,26 @@
 //10 points - correct use of if statements
 //10 points - correct #include statements
 //10 points - correct outputs 
+
+#include <cstdlib>
+#include <iostream>
+#include <ctime>
+using namespace std;
+
+int main()
+{
+    int guess,number;
+    cout << "Guess a number between 1 and 100" << endl;
+    cin >> guess;
+
+    cout << guess << endl;
+    cout << number << endl;
+
+    number = rand() % 100 + 1;
+
+
+
+
+
+
+}
