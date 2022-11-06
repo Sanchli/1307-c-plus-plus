@@ -31,7 +31,7 @@ int main()
             nums[j] = temp;
         }
     }
-    for (int t=0; t < array_size; t++) 
+    for (int t=9; t >= 0; t--) 
     {
         std::cout << nums[t]<< " ";
     }   
