@@ -13,7 +13,7 @@ int main()
     {
         //Runs formula  then outputs to chart; increments by 10 
         fahrenheit = celsius * 1.8 + 32;
-        cout << celsius << "              " << fahrenheit << endl;
+        cout << celsius << "           " << fahrenheit << endl;
         celsius = celsius + 10 ;
     }
     system ("PAUSE");

@@ -1,0 +1,6 @@
+Albert,Einstein 87.1
+Ben,Franklin 79.5
+Tom,Edison 65.1
+Nick,Tesla 80.1
+Ed,Dijkstra 77.5
+The highest overall grade was 87.1
