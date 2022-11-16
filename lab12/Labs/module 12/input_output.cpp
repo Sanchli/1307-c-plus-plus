@@ -23,7 +23,7 @@ int main()
         exit(1);
     }
     infile >> name >> score;
-    while (!infile.eof() )
+    while (infile)
     {
         outfile << name << " ";
         outfile << score + 5 << endl;
