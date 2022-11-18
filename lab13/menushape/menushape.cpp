@@ -19,7 +19,7 @@ int main()
     cout << "2. Calculate the area of a Rectangle" << endl;
     cout << "3. Calculate the area of a Square" << endl;
     cout << "4. Calculate the area of a Triangle" << endl;
-    cout << "5.Quit" << endl;
+    cout << "5. Quit" << endl;
     cout << endl;
     //User input
     cout << "Enter Selection" << endl;
