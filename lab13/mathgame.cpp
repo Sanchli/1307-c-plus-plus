@@ -26,7 +26,6 @@ void check(int answer,int total){
         cin >> answer;
     }
 }
-
 int main(){
     int menuSelection,number1,number2, answer,total;
     //Random Number Generator
@@ -95,7 +94,7 @@ int main(){
         cout << endl;
         cout << "Wow your Math Wizard!" << endl;
         break;
-        
+
         case 4:
         break;
     }
